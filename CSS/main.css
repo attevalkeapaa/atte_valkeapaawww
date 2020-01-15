@@ -27,5 +27,5 @@ h1.warning,note{
 }
 article > p{
     font-weight: bold;
-    font-color: blue;
+    color: blue;
 }
