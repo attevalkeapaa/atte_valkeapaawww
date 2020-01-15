@@ -1,0 +1,30 @@
+.flexcolumn{
+    display: flex;
+    background-color: rebeccapurple;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    }
+nav {
+        display: block;
+      }    
+header{
+        height: 100px;
+        background-color: gold;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;}
+footer{
+    height: 50px;
+    background-color: rgb(57, 133, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+article{
+    display: inline-block;  
+    width: auto;
+    height: 400px;
+    background-color: rgb(106, 106, 235);
+}
