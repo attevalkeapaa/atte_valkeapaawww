@@ -1,13 +1,3 @@
-.flexcolumn{
-    display: flex;
-    background-color: rebeccapurple;
-    flex-direction: column;
-    flex-wrap: wrap;
-    float: left;
-    }
-nav {
-        background-color: cadetblue;
-      }    
 header{
         height: 100px;
         background-color: gold;
@@ -24,8 +14,20 @@ footer{
     justify-content: center;
     font-weight: bold;}
 article{
-    display: inline-block;  
     width: auto;
     height: 400px;
     background-color: rgb(106, 106, 235);
-}
+    padding: 2px;
+    }
+    .box{
+        float:left;
+        width: 200px;
+        background-color: rgb(73, 173, 73);
+        height: 404px;
+    }
+    .flexContainer{
+        display:flex;
+        background-color: rgb(236, 113, 113);
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
