@@ -1,13 +1,13 @@
 .container{
     background-color: rgba(245, 245, 245, 0.89);
 }
-.header img {
+.header > img {
     float: left;
     width: 100px;
     height: 100px;
     background: #555;
   }
-  .header h1 {
+  .header > h1 {
     position: relative;
     height: 100px;
     background-color: goldenrod;
