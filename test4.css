@@ -1,0 +1,14 @@
+.flexContainer{
+    display:flex;
+    background-color: rgb(236, 113, 113);
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.flexContainer > div {
+    background-color: rgb(100, 128, 190);
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    width: fit-content;
+}
