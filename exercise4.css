@@ -1,0 +1,30 @@
+header{
+        height: 100px;
+        background-color: gold;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;}
+footer{
+    height: 50px;
+    background-color: rgb(57, 133, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;}
+article{
+    width: auto;
+    height: 400px;
+    background-color: rgb(106, 106, 235);
+    padding: 2px;
+    }
+    .box{
+        float:left;
+        width: 200px;
+        background-color: rgb(73, 173, 73);
+        height: 404px;
+    }
+    img {
+        display: inline-block;
+    }
